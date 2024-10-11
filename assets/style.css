@@ -1,8 +1,14 @@
+*{
+    font-family: "Passero One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
 }
 .header {
     position: relative;
@@ -44,48 +50,29 @@ body {
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
 }
-.section {
+.section1 {
+    width: 1600px;
+height: 700px;
+flex-shrink: 0;
+    background-color: #efecec;
     padding: 20px;
 }
-.section h2 {
+.section1 h2 {
     font-size: 24px;
     margin-bottom: 20px;
 }
-.tourist-points {
+.tours {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
-    margin-top: 20px;
 }
-
-.tourist-points .point {
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
+.tour {
     text-align: center;
-    width: 30%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f0f0f0;
+    transition: transform 0.6s;
 }
 
-.tourist-points .point img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.tourist-points .point p {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #000;
-}
-
-.partners .partner {
-    background-color: #e0f7fa;
-}
-.partners .partner p {
-    font-size: 16px;
-    font-weight: normal;
-}
 .contact {
     background-color: white;
     padding: 20px;
@@ -114,4 +101,75 @@ body {
     background-color: white;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.ponto_turistico{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+.imagen_ponto{
+    
+    width: 367px;
+    height: 464px;
+    
+  }
+  
+.imagen_ponto img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+.caption{
+    width: 207px;
+    height: 42px;
+    flex-shrink: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    }
+.title{
+        text-align: center;
+        font-size: 48px;
+    }
+#main{
+    background-color: black;
+}
+
+.imagem_pcr{
+    width: 302px;
+height: 382px;
+flex-shrink: 0;
+border-radius: 48px;
+}
+
+.texto_pcr{
+	width: 317px;
+height: 297px;
+flex-shrink: 0;
+color: #000;
+text-align: justify;
+font-family: Alice;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.section2{
+    width: 1600px;
+height: 700px;
+flex-shrink: 0;
+    background-color: rgba(0, 194, 255, 0.13);
+    ;
+    padding: 20px;
+}
+.parceiros{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
 }
